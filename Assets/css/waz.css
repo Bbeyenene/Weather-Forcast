@@ -2,16 +2,22 @@ body {
     background-color: rgb(99, 165, 241);
     width: 100%;
     height: 100%;
-
 }
-
+.container-fluid {
+    justify-content: space-between;
+}
 #topic {
     background-color: cadetblue;
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
 }
-
+.say {
+    margin: 10px;
+}
+.weather-col {
+    margin-left: 20px;
+}
 #today {
     max-width: 500px;
 }
@@ -24,7 +30,7 @@ body {
     text-decoration: underline;
     color: black;
 }
-
 p {
     font-weight: 800;
 }
+
